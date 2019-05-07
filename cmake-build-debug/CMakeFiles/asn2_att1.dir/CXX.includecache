@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/imhikarucat/Desktop/CPP/asn2-att1/Coordinator.h
+stdio.h
+-
+
+/Users/imhikarucat/Desktop/CPP/asn2-att1/Edge.h
+stdio.h
+-
+Coordinator.h
+/Users/imhikarucat/Desktop/CPP/asn2-att1/Coordinator.h
+
+/Users/imhikarucat/Desktop/CPP/asn2-att1/HuntAndKillAlgorithm.cpp
+HuntAndKillAlgorithm.h
+/Users/imhikarucat/Desktop/CPP/asn2-att1/HuntAndKillAlgorithm.h
+
+/Users/imhikarucat/Desktop/CPP/asn2-att1/HuntAndKillAlgorithm.h
+stdio.h
+-
+Maze.h
+/Users/imhikarucat/Desktop/CPP/asn2-att1/Maze.h
+
+/Users/imhikarucat/Desktop/CPP/asn2-att1/Maze.h
+stdio.h
+-
+vector
+-
+Edge.h
+/Users/imhikarucat/Desktop/CPP/asn2-att1/Edge.h
+
